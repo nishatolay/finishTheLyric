@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Guess The Lyric</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="gameBody">
+
+  <div class="player">
+    <h2 id="genreTitle"></h2>
+
+    <p id="lyric" class="lyric"></p>
+
+    <iframe id="video" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+    <div id="choices"></div>
+
+    <button class="nextButton" onclick="loadQuestion()">Next Question</button>
+
+    <p id="result"></p>
+
+    <a href="index.html" class="homeLink">Back to genres</a>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
