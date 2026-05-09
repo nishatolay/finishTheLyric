@@ -5,21 +5,24 @@ const questions = {
       answer: "low",
       choices: ["low", "floor", "go", "show"],
       video: "ko70cExuzZM",
-      start: 73
+      start: 73,
+      end: 74
     },
     {
       lyric: "Here's my number…",
       answer: "so call me maybe",
       choices: ["call me later", "so call me maybe", "text me maybe", "hit me baby"],
       video: "K9udREBvMdE",
-      start: 33
+      start: 33,
+      end: 34
     },
     {
       lyric: "Cause you're hot then you're…",
       answer: "cold",
       choices: ["bold", "cold", "gone", "mine"],
       video: "kTHNpusq654",
-      start: 32
+      start: 32,
+      end: 33
     }
   ],
 
@@ -29,14 +32,21 @@ const questions = {
       answer: "saved",
       choices: ["saved", "changed", "claimed", "named"],
       video: "0EnRK5YvBwU",
-      start: 105
+      start: 105,
+      end: 107
     },
     {
       lyric: "Starships were meant to fly…",
       answer: "hands up and touch the sky",
-      choices: ["we were born to shine", "hands up and touch the sky", "we can go all night", "baby one more time"],
+      choices: [
+        "we were born to shine",
+        "hands up and touch the sky",
+        "we can go all night",
+        "baby one more time"
+      ],
       video: "g7X9X6TlrUo",
-      start: 45
+      start: 45,
+      end: 49
     }
   ],
 
@@ -44,9 +54,15 @@ const questions = {
     {
       lyric: "A tornado flew around my room before you came…",
       answer: "excuse the mess it made",
-      choices: ["I hope you feel the same", "excuse the mess it made", "nothing was the same", "I never knew your name"],
+      choices: [
+        "I hope you feel the same",
+        "excuse the mess it made",
+        "nothing was the same",
+        "I never knew your name"
+      ],
       video: "6JHu3b-pbh8",
-      start: 6
+      start: 6,
+      end: 11
     }
   ],
 
@@ -56,14 +72,16 @@ const questions = {
       answer: "shot",
       choices: ["dream", "chance", "shot", "name"],
       video: "lZ4UmlFNdSI",
-      start: 80
+      start: 80,
+      end: 83
     },
     {
       lyric: "I mean it's crazy. What? We finish each other's…",
       answer: "sandwiches",
       choices: ["sentences", "sandwiches", "stories", "songs"],
       video: "j6nnoWgbdvg",
-      start: 60
+      start: 60,
+      end: 65
     }
   ]
 };
@@ -113,7 +131,13 @@ function loadQuestion() {
   document.getElementById("lyric").innerText = currentQuestion.lyric;
 
   document.getElementById("video").src =
-    "https://www.youtube.com/embed/" + currentQuestion.video + "?start=" + currentQuestion.start;
+    "https://www.youtube-nocookie.com/embed/" +
+    currentQuestion.video +
+    "?start=" +
+    currentQuestion.start +
+    "&end=" +
+    currentQuestion.end +
+    "&rel=0";
 
   document.getElementById("result").innerText = "";
 
@@ -156,6 +180,7 @@ window.onload = function () {
 
   if (!currentGenre || !questions[currentGenre]) {
     window.location.href = "index.html";
+    return;
   }
 
   setTheme(currentGenre);
