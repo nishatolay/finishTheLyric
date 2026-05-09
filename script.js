@@ -47,7 +47,42 @@ const questions = {
       video: "g7X9X6TlrUo",
       start: 45,
       end: 49
-    }
+    },
+    {
+      lyric: "Girls you know you better, watch out, some guys some guys are only about…",
+      answer: "that thing that thing that thing",
+      choices: [
+        "some guys, some guys",
+        "some food, some food",
+        "that thing that thing that thing",
+        "that girl, that girl, that girl"
+      ],
+      video: "OYzKrmDYAYQ",
+      start: 3,
+      end: 12
+    },
+    {
+      lyric: "Princess or queen, tomboy or king, you've heard a lot you've never seen...",
+      answer: "Mother Earth, Mother Mary rise to the top, divine feminine I'm feminine",
+      choices: [
+        "Mother Mary, Mother Mary rise to the top, divine feminine I'm feminine",
+        "Mother Earth, Mother Mary rise to the top, divine feminine I'm feminine",
+        "rise to the top",
+        "Feminine is divine, so you can rise"
+      ],
+      video: "g7X9X6TlrUo",
+      start: 126,
+      end: 130
+    },
+    {
+      lyric: "I want it, I got it, I want it, I got it, I want it, I got it, I want it, I got it...",
+      answer: "You like my hair? Gee thanks, just bought it, I see it, I like it, I want it, I got it",
+      choices: ["I like my hair I like my hair I like my hair", "I want it, I got it, I want it, I got it", "You like my rings?, Gee thanks just bought it", "You like my hair? Gee thanks, just bought it, I see it, I like it, I want it, I got it"],
+      video: "QYh6mYIJG2Y",
+      start: 59,
+      end: 62
+    },
+
   ],
 
   rnb: [
