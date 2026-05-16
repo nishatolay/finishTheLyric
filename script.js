@@ -1,29 +1,77 @@
 const questions = {
   pop: [
     {
-      lyric: "Keep it one hundred on the…",
-      answer: "low",
-      choices: ["low", "floor", "go", "show"],
-      video: "ko70cExuzZM",
-      start: 73,
-      end: 74
-    },
-    {
-      lyric: "Here's my number…",
-      answer: "so call me maybe",
-      choices: ["call me later", "so call me maybe", "text me maybe", "hit me baby"],
-      video: "K9udREBvMdE",
-      start: 33,
-      end: 34
-    },
-    {
-      lyric: "Cause you're hot then you're…",
-      answer: "cold",
-      choices: ["bold", "cold", "gone", "mine"],
-      video: "kTHNpusq654",
-      start: 32,
-      end: 33
-    }
+    lyric: "Keep it one hundred on the…",
+    answer: "low",
+    choices: ["low", "floor", "go", "show"],
+    video: "ko70cExuzZM",
+    start: 73,
+    end: 74
+  },
+  {
+    lyric: "I take one look at you you’re taking me out…",
+    answer: "of the ordinary",
+    choices: ["of the normal", "of the amazing", "of the ordinary", "of the lovely"],
+    video: "byxFUKxhT3s",
+    start: 32,
+    end: 35
+  },
+  {
+    lyric: "Hottie hottie, like a bag of…",
+    answer: "takis",
+    choices: ["chips", "takis", "flames", "snacks"],
+    video: "MEv8cNXi8tw",
+    start: 45,
+    end: 48
+  },
+  {
+    lyric: "Just come be the…",
+    answer: "man I need",
+    choices: ["man I need", "one I want", "love I see", "guy for me"],
+    video: "JGKgbmz_gcU",
+    start: 57,
+    end: 59
+  },
+  {
+    lyric: "I would like a…",
+    answer: "husband",
+    choices: ["husband", "lover", "boyfriend", "wedding"],
+    video: "Dml0JEgRpc0",
+    start: 139,
+    end: 140
+  },
+  {
+    lyric: "In a room full of people…",
+    answer: "I look for you",
+    choices: ["I look for you", "I see only you", "I wait for you", "I think of you"],
+    video: "TMf9RrPZDSY",
+    start: 67,
+    end: 68
+  },
+  {
+    lyric: "Haven’t you heard I’m the…",
+    answer: "internet girl",
+    choices: ["internet girl", "it girl", "pretty girl", "main girl"],
+    video: "WafvNKk7Tco",
+    start: 0,
+    end: 2
+  },
+  {
+    lyric: "Cause you're hot then you're…",
+    answer: "cold",
+    choices: ["bold", "cold", "gone", "mine"],
+    video: "kTHNpusq654",
+    start: 32,
+    end: 33
+  },
+  {
+    lyric: "And, oh, it’s hard to see you, but…",
+    answer: "I wish you well",
+    choices: ["I wish you well", "I love you still", "I know you tried", "I see you now"],
+    video: "HfpR4tAmI7E",
+    start: 40,
+    end: 46
+  },
   ],
 
   rap: [
